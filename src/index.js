@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+// import './index.css';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter as Router} from 'react-router-dom';
+import {RoomProvider} from './Context'
+import {FoodProvider} from './restaurantContext'
 
 ReactDOM.render(
-  <React.StrictMode>
+  <RoomProvider>
+  <FoodProvider>
+  <Router>
     <App />
-  </React.StrictMode>,
+  </Router>
+  </FoodProvider>
+  </RoomProvider>,
   document.getElementById('root')
 );
 
