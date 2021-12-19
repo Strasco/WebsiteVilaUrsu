@@ -4,6 +4,8 @@ import Banner from '../Components/Banner'
 import {Link} from 'react-router-dom'
 import Services from '../Components/Services'
 import FeaturedRooms from '../Components/FeaturedRooms'
+import Activities from '../Components/Activities'
+import StrajaPresentation from '../Components/StrajaPresentation'
 import Contact from '../Components/Contact'
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
        </Hero>
         <Services></Services>
         <FeaturedRooms></FeaturedRooms>
+        <Activities></Activities>
+        <StrajaPresentation></StrajaPresentation>
         <Contact></Contact>
         </>
 

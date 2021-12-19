@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import SingleRoom from './pages/SingleRoom';
 import Restaurant from './pages/Restaurant';
 import Error from './pages/Error';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {Route, Switch} from 'react-router-dom'
 import Navbar from "./Components/Navbar"

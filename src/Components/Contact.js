@@ -22,7 +22,7 @@ export default class Contact extends Component {
             {
                 icon:<FaFacebookF/>,
                 title:"Facebook",
-                link: "https://www.youtube.com/channel/UCMNWhQjRkLeBL-aCkIhSl1Q",
+                link: "https://www.facebook.com/biancelena67/",
                 info3: "Contact us on facebook!"
             }
         ]
