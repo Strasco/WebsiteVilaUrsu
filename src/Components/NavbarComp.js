@@ -3,6 +3,7 @@ import logo from "../images/images-ursu/vila-ursu-logo.png";
 import { FaAlignRight, FaCentercode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap";
+import { Link as LinkScroll } from "react-scroll";
 export default class NavbarComp extends Component {
   state = {
     isOpen: false,
@@ -10,6 +11,7 @@ export default class NavbarComp extends Component {
   handleToggle = () => {
     this.setState({ isOpen: ~this.state.isOpen });
   };
+
   render() {
     return (
       <Navbar bg="dark" variant="dark" expand="sm" collapseOnSelect>
@@ -24,6 +26,17 @@ export default class NavbarComp extends Component {
               <Link to="/" className="nav-link">
                 <h4>Acasa</h4>
               </Link>
+            </Nav.Link>
+            <Nav.Link href="#">
+              <LinkScroll
+                to="contact"
+                duration={100}
+                spy={true}
+                smooth={true}
+                className="nav-link"
+              >
+                <h4>Contact</h4>
+              </LinkScroll>
             </Nav.Link>
             <Nav.Link href="#">
               <Link to="/rooms" className="nav-link">

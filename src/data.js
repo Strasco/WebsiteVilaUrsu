@@ -17,6 +17,17 @@ import dublaTwin_3_3 from "./images/images-ursu/camere/dublaTwin/dubla-twin-3_3.
 import dublaTwin_3_4 from "./images/images-ursu/camere/dublaTwin/dubla-twin-3_4.JPG";
 import dublaTwin_3_5 from "./images/images-ursu/camere/dublaTwin/dubla-twin-3_5.JPG";
 
+import baie1 from "./images/images-ursu/bai/baie1.JPG";
+import baie5 from "./images/images-ursu/bai/baie5.JPG";
+import baie3 from "./images/images-ursu/bai/baie3.JPG";
+import baie4 from "./images/images-ursu/bai/baie4.JPG";
+import baie7 from "./images/images-ursu/bai/baie7.JPG";
+import baie13 from "./images/images-ursu/bai/baie13.JPG";
+import baie8 from "./images/images-ursu/bai/baie8.JPG";
+import baie9 from "./images/images-ursu/bai/baie9.JPG";
+import baie10 from "./images/images-ursu/bai/baie10.JPG";
+import baie11 from "./images/images-ursu/bai/baie11.JPG";
+
 export default [
   {
     sys: {
@@ -62,6 +73,20 @@ export default [
           fields: {
             file: {
               url: dublaMatrimoniala_2_5,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: baie1,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: baie5,
             },
           },
         },
@@ -136,6 +161,34 @@ export default [
             },
           },
         },
+        {
+          fields: {
+            file: {
+              url: baie3,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: baie4,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: baie7,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: baie13,
+            },
+          },
+        },
       ],
     },
   },
@@ -196,6 +249,34 @@ export default [
           fields: {
             file: {
               url: dublaTwin_3_5,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: baie8,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: baie9,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: baie10,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: baie11,
             },
           },
         },

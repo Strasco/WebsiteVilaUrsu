@@ -27,9 +27,14 @@ export default class Contact extends Component {
       },
     ],
   };
+  constructor(props) {
+    super(props);
+    this.myRef = React.createRef();
+  }
+
   render() {
     return (
-      <div>
+      <div id="contact">
         <section className="services-contact">
           <Title title="Contact"></Title>
           <div className="services-center">

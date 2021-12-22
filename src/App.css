@@ -9,6 +9,9 @@
   --mainSpacing: 3px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
 }
+html {
+  scroll-behavior: smooth;
+}
 /* globals */
 body {
   /* padding-top: 66px; */
@@ -379,6 +382,9 @@ h6 {
 .single-room-container {
   padding: 5rem 0 0 0;
   background-color: var(--darkGrey);
+}
+.carousel-image {
+  height: 100vh;
 }
 .single-room-content {
   margin: auto;
