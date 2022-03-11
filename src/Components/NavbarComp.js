@@ -14,7 +14,13 @@ export default class NavbarComp extends Component {
 
   render() {
     return (
-      <Navbar bg="dark" variant="dark" expand="sm" collapseOnSelect>
+      <Navbar
+        sticky="true"
+        bg="dark"
+        variant="dark"
+        expand="sm"
+        collapseOnSelect
+      >
         <Navbar.Brand>
           <img src={logo} className="ursu-logo" />
         </Navbar.Brand>
